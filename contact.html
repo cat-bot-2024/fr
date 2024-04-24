@@ -6,7 +6,21 @@
 
 </head>
 <body>
-  <form id="contact-form">
+	 <div class="container">
+      <div class="row">
+        <div class="container py-sm-4">
+          <div class="row">
+            <div class="col-md-10 my-4 mx-auto">
+              <h2 class="text-center">Contact&nbsp;</h2>
+              <hr>
+              <div class="row no-gutters my-3">
+                <div class="col-md-4 pr-2">
+                  <div class="list-group text-center my-3">
+                    <div class="list-group-item text-white bg-dark">
+                      <h4 class="text-center my-1">Contacter en tant que manager</h4>
+                    </div>
+                    <div class="list-group-item text-uppercase font-weight-bold">
+                 <form id="contact-form">
     <label for="username">Pseudo :</label>
     <input type="text" id="username" name="username" required>
     <br>
@@ -15,7 +29,15 @@
     <br>
     <input type="submit" value="Envoyer">
   </form>
-
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
   <script>
     const form = document.getElementById('contact-form');
     form.addEventListener('submit', e => {
@@ -49,5 +71,6 @@
         });
     });
   </script>
+	
 </body>
 </html>
